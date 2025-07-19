@@ -134,7 +134,10 @@ function autoLockAndTrigger(config, boneHeadPos, bindposeMatrix) {
 }
 
 // === Đầu vào (thay thế đúng JSON collider của bạn) ===
-
+const GamePackages = {
+  GamePackage1: "com.dts.freefireth",
+  GamePackage2: "com.dts.freefiremax"
+};
 const headConfig = {
   "boneColliderProperty": {
     "boneProperty": {
