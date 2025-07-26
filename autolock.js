@@ -293,7 +293,7 @@ const headConfig = {
 }
 };
 
-const boneHeadPosition = { x: -0.0457, y: -0.00447, z: -0.02004 };
+const boneHeadPosition = { x: -0.0456970781, y:  -0.004478302, z: -0.0200432576 };
 const bindpose = {
   e00: -1.34559613e-13, e01: 8.881784e-14, e02: -1.0, e03: 0.487912,
   e10: -2.84512817e-06, e11: -1.0, e12: 8.881784e-14, e13: -2.842171e-14,
@@ -304,4 +304,4 @@ const bindpose = {
 // === Vòng lặp game (tick) ===
 setInterval(() => {
   autoLockAndTrigger(headConfig, boneHeadPosition, bindpose);
-}, 16);
+}, 8);
